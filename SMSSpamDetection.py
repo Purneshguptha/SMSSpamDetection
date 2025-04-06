@@ -9,7 +9,7 @@ from sklearn.naive_bayes import MultinomialNB
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
 
 
-df = pd.read_csv(r"C:\Users\asaik\OneDrive\Documents\ML Projects\SMSSpamDetection\spam_sms.csv")  # Adjust encoding if needed
+df = pd.read_csv(PATH TO YOUR FILE)  # Adjust encoding if needed
 
 # Display dataset information
 print("Dataset Info:")
